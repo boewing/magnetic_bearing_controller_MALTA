@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\MALTA_zynq\vivado\MALTA_zynq.sdk\MALTA_FSBL\Debug\MALTA_FSBL.elf
+	C:\MALTA_zynq\vivado\MALTA_zynq.sdk\zsys_wrapper_hw_platform_0\zsys_wrapper.bit
+	C:\MALTA_zynq\vivado\MALTA_zynq.sdk\MALTA_fw\Release\MALTA_fw.elf
+}

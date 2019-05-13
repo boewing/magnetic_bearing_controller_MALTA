@@ -1,0 +1,1 @@
+#ifndef optimizer_coordinate_transform_h  #define optimizer_coordinate_transform_h  const double G[3][3]= {{0.61909, 0.78532, 0},                           {-0.78532, 0.61909, 0},                           {0, 0, 1}}; const double G_inv[3][3]= {{0.61909, -0.78532, 0},                               {0.78532, 0.61909, 0},                               {0, 0, 1}};#endif
